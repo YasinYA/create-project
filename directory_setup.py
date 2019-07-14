@@ -22,8 +22,6 @@ def change_directory(args):
 def create_directory():
     # cd to directory accordingly
     directory = change_directory(args)
-    print(directory)
-    print(args)
 
     # create the project directory
     print('Checking if directory exist...')
